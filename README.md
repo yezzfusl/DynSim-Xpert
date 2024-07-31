@@ -23,9 +23,7 @@ To compile the project on a Debian-based system:
   ```sudo apt-get update```
   ```sudo apt-get install gfortran libopenmpi-dev```
 2. Compile the code using gfortran with OpenMP support:
-  `gfortran -fopenmp -O3 -o simulation dynamics_simulation.f90 constants.f90 vector_operations.f90     
-  numerical_integration.f90 rigid_body_dynamics.f90 fluid_dynamics.f90 multi_body_dynamics.f90 
-  performance_optimization.f90 visualization.f90`
+  `gfortran -fopenmp -O3 -o simulation dynamics_simulation.f90 constants.f90 vector_operations.f90 numerical_integration.f90 rigid_body_dynamics.f90 fluid_dynamics.f90 multi_body_dynamics.f90 performance_optimization.f90 visualization.f90`
 ## Usage
 
 Run the compiled program:
