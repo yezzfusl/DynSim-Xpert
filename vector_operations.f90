@@ -16,7 +16,6 @@ contains
     
     dot_product = sum(a * b)
   end function dot_product
-
   function norm2(v)
     real, dimension(:), intent(in) :: v
     real :: norm2
